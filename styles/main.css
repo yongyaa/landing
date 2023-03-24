@@ -1,0 +1,119 @@
+.visual {
+    background:url(../images/2/9a3101138098027.623db32666f90.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.visual .visual_gra {
+    background: linear-gradient(0deg, rgba(0,0,0,0.3) , transparent);
+}
+.visual .visual_gra .header {
+    width:1700px;
+    margin:0 auto;
+    /* background:red; */
+    padding:30px 0;
+}
+.visual .visual_gra .header h1 {
+    width:200px;
+    /* background:pink; */
+}
+.visual .visual_gra .header h1 a {}
+.visual .visual_gra .header h1 a img {width:100%;}
+.visual .visual_gra .header .menu {}
+.visual .visual_gra .contents {
+    width:1700px;
+    margin:0 auto;
+    /* background:aqua; */
+    padding:400px 0 150px;
+}
+.visual .visual_gra .contents > * {
+    color:#fff;
+}
+.visual .visual_gra .contents h1 {
+    font-weight:600;
+    font-size:3rem;
+}
+.visual .visual_gra .contents h2 {
+    font-weight:500;
+    font-size:2rem;
+    padding:10px 0 25px;
+}
+.visual .visual_gra .contents p {
+    font-size:1.063rem;
+    line-height:1.7em;
+}
+.container {
+    background:#212121;
+}
+.container .content1 {
+    margin:0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    padding:100px 0;
+}
+.container .content1 .bg {
+    background:#6d9886;
+    width:1300px;
+    padding:150px 0;
+}
+.container .content1 .bg .text {
+    /* background:lawngreen; */
+    width:600px;
+    padding-left:200px;
+    color:#fff;
+}
+.container .content1 .bg .text h2 {
+    font-size:1.125rem;
+}
+.container .content1 .bg .text h1 {
+    font-size:2.188rem;
+    font-weight:600;
+    line-height:1.2em;
+    padding:10px 0 20px;
+}
+.container .content1 .bg .text p {
+    font-size:1.125rem;
+    line-height:1.5em;
+    padding-bottom:50px;
+}
+.container .content1 .bg .text a {
+    color:#fff;
+    background:#212121;
+    padding:10px 20px;
+    /* border-radius:15px; */
+}
+.container .content1 .img {width:1000px; height:550px; overflow:hidden; position:absolute; right:0;}
+.container .content1 .img img {width:100%; position:relative; top:-50px;}
+.container .content2 {
+    padding:100px 0;
+}
+.container .content2 .bg {
+    background:url(../images/1/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding:500px 0 100px;
+    position:relative;
+}
+.container .content2 .bg .text {
+    padding-left:200px;
+    background:#212121;
+    width:600px;
+    position:absolute;
+    bottom:0;
+    left:200px;
+    padding:40px;
+    width:500px;
+    color:#fff;
+}
+.container .content2 .bg .text h1 {
+    font-size:2.188rem;
+    font-weight:600;
+    line-height:1.2em;
+}
+.container .content2 .bg .text p {
+    font-size:1.125rem;
+    line-height:1.5em;
+    padding-top:20px;
+}
