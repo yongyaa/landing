@@ -16,7 +16,9 @@
     width:200px;
     /* background:pink; */
 }
-.visual .visual_gra .header h1 a {}
+.visual .visual_gra .header h1 a {
+    /* box-shadow:1px 1px; */
+}
 .visual .visual_gra .header h1 a img {width:100%;}
 .visual .visual_gra .header .menu {}
 .visual .visual_gra .contents {
@@ -64,9 +66,6 @@
     padding-left:200px;
     color:#fff;
 }
-.container .content1 .bg .text h2 {
-    font-size:1.125rem;
-}
 .container .content1 .bg .text h1 {
     font-size:2.188rem;
     font-weight:600;
@@ -81,7 +80,7 @@
 .container .content1 .bg .text a {
     color:#fff;
     background:#212121;
-    padding:10px 20px;
+    padding:10px 25px;
     /* border-radius:15px; */
 }
 .container .content1 .img {width:1000px; height:550px; overflow:hidden; position:absolute; right:0;}
@@ -93,12 +92,12 @@
     background:url(../images/1/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg) no-repeat;
     background-size:cover;
     background-position:center;
-    padding:500px 0 100px;
+    padding:600px 0 100px;
     position:relative;
 }
 .container .content2 .bg .text {
     padding-left:200px;
-    background:#212121;
+    background:#6d9886;
     width:600px;
     position:absolute;
     bottom:0;
@@ -111,9 +110,175 @@
     font-size:2.188rem;
     font-weight:600;
     line-height:1.2em;
+    padding:10px 0 20px;
 }
 .container .content2 .bg .text p {
     font-size:1.125rem;
     line-height:1.5em;
-    padding-top:20px;
 }
+.container .content3 {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    padding:100px 0;
+    width:1700px;
+    margin:0 auto;
+}
+.container .content3 .slide {
+    width:32%;
+}
+.container .content3 .slide > * {color:#fff;}
+.container .content3 .slide h2 {
+    padding:50px 0 15px;
+    font-size:1.875rem;
+    letter-spacing:-0.02rem;
+}
+.container .content3 .slide p {
+    font-size:1.125rem;
+    line-height:1.5em;
+    letter-spacing:-0.02rem;
+}
+.container .content3 .slide1 {}
+.container .content3 .slide1 .bg1 {
+    background:url(../images/1/avery-klein-C_dRtsnBOQA-unsplash.jpg) no-repeat;
+    display:block;
+    height:600px;
+    background-size:cover;
+    background-position:center;
+}
+.container .content3 .slide1 h2 {}
+.container .content3 .slide1 p {}
+.container .content3 .slide2 {}
+.container .content3 .slide2 .bg2 {
+    background:url(../images/1/trend-K9pU2u0Z5WU-unsplash.jpg) no-repeat;
+    display:block;
+    height:600px;
+    background-size:cover;
+    background-position:center;}
+.container .content3 .slide2 h2 {}
+.container .content3 .slide2 p {}
+.container .content3 .slide3 {}
+.container .content3 .slide3 .bg3 {
+    background:url(../images/1/avery-klein-JaXs8Tk5Iww-unsplash.jpg) no-repeat;
+    display:block;
+    height:600px;
+    background-size:cover;
+    background-position:center;}
+.container .content3 .slide3 h2 {}
+.container .content3 .slide3 p {}
+.container .content-btn {
+    position:relative;
+}
+.container .content-btn .more {
+    color:#fff;
+    background:#6d9886;
+    position:absolute;
+    right:50%; bottom:0;
+    padding:15px 25px;
+}
+.container .content4 {padding:200px 0 100px;}
+.container .content4 .bg {
+    background:url(../images/1/sidekix-media-rk_t-yyJak0-unsplash.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:1200px;
+    height:800px;
+    box-shadow:20px 20px 0 0 #6d9886;
+}
+.container .content4 .text {
+    color:#fff;
+    width:1700px;
+    margin:0 auto;
+    padding:40px 0;
+
+}
+.container .content4 .text h1 {
+    font-size:2.188rem;
+    padding:10px 0 20px;
+}
+.container .content4 .text p {
+    font-size:1.125rem;
+    line-height:1.5em;
+    width:1000px;
+}
+.container .content5 {
+    padding:100px 0;
+}
+.container .content5 .bg {
+    background:url(../images/1/r-architecture-wDDfbanbhl8-unsplash.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:700px;
+}
+.container .content5 .text2 {
+    color:#fff;
+    width:1700px;
+    margin:0 auto;
+    padding:50px 0 20px;
+}
+.container .content5 .text2 h2 {}
+.container .content5 .text2 h1 {
+    font-size:2.188rem;
+    padding:10px 0 20px;
+    letter-spacing:-0.02em;
+}
+.container .content5 .text2 p {
+    font-size:1.125rem;
+    line-height:1.5em;
+    letter-spacing:-0.02em;
+}
+.container .footer {
+    width:1700px;
+    margin:200px auto 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    color:#fff;
+    padding:50px 0 50px;
+    border-top:0.5px solid #fff;
+}
+.container .footer .left {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:space-between;
+}
+.container .footer .left .top {}
+.container .footer .left .top a {
+    color:#fff;
+    font-size:0.875rem;
+    letter-spacing:-0.02em;
+}
+.container .footer .left .top a:last-child::after {
+    display:none;
+}
+.container .footer .left .top a::after {
+    background:#fff;
+    content:'';
+    display:inline-block;
+    width:1px;
+    height:12px;
+    margin:0 10px;
+}
+
+.container .footer .left .mid {padding:20px 0;}
+.container .footer .left .mid .logo {}
+.container .footer .left .mid .logo img {width:50%;}
+.container .footer .left .bottom {}
+.container .footer .left .bottom p {
+    font-size:0.875rem;
+    letter-spacing:-0.02em;
+    line-height:1.5rem;
+}
+.container .footer .right {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:space-between;
+}
+.container .footer .right .cap {}
+.container .footer .right .cap p {
+    font-size:0.875rem;
+    letter-spacing:-0.02em;
+}
+.container .footer .right .sns {text-align:right;}
+.container .footer .right .sns a {padding:0 5px}
+.container .footer .right .sns a img {width:35px;}
